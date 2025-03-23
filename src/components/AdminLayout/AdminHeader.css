@@ -1,0 +1,11 @@
+.header-admin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-dashboard {
+  background-color: var(--white);
+  color: var(--black);
+  margin: 0 4px;
+}

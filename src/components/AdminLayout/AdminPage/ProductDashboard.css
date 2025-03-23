@@ -1,0 +1,99 @@
+.product-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.product-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.product-input {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.product-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+.product-button.add {
+  background: #28a745;
+}
+
+.product-button.update {
+  background: #007bff;
+}
+
+.product-button.edit {
+  background: #ffc107;
+}
+
+.product-button.delete {
+  background: #dc3545;
+}
+
+.product-button:hover {
+  opacity: 0.8;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.product-table th {
+  background: #f4f4f4;
+}
+
+.product-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.product-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.product-button.page {
+  background: #007bff;
+  margin: 0 5px;
+}
+
+.product-page-info {
+  font-size: 16px;
+  margin: 0 10px;
+}

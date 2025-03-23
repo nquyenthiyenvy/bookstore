@@ -1,0 +1,77 @@
+.manufacturer-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 12px auto 0;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.manufacturer-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.manufacturer-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.manufacturer-input {
+  padding: 10px;
+  width: calc(50% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.manufacturer-button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.manufacturer-button.add {
+  background-color: #28a745;
+  color: white;
+}
+
+.manufacturer-button.edit {
+  background-color: #ffc107;
+  color: white;
+}
+
+.manufacturer-button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.manufacturer-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.manufacturer-table th,
+.manufacturer-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.manufacturer-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.manufacturer-button.page {
+  background-color: #007bff;
+  color: white;
+  margin: 0 5px;
+}

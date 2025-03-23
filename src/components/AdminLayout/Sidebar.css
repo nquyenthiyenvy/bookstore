@@ -1,0 +1,38 @@
+.wrap-dashboard {
+  background-color: var(--primary-color);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+
+  height: 30rem;
+}
+
+.heading-dashboard > a {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #000;
+  font-size: 2rem;
+  padding: 8px 0;
+}
+
+.list-dashboard a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style-type: none;
+  flex: 1;
+}
+
+.list-dashboard > li a {
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+.list-dashboard > li a:hover {
+  opacity: 0.5;
+}
+
+.list-dashboard > li a.active {
+  color: red;
+}

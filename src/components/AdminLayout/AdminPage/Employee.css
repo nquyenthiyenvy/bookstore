@@ -1,0 +1,77 @@
+.employee-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 12px auto 0;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.employee-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.employee-input {
+  padding: 10px;
+  width: calc(33.33% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.employee-button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.employee-button.add {
+  background-color: #28a745;
+  color: white;
+}
+
+.employee-button.edit {
+  background-color: #ffc107;
+  color: white;
+}
+
+.employee-button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.employee-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.employee-button.page {
+  background-color: #007bff;
+  color: white;
+  margin: 0 5px;
+}
