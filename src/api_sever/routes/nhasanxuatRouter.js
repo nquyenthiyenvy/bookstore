@@ -29,7 +29,7 @@ router.post('/nhasanxuat', async (req, res) => {
 
 
         if (result.affectedRows === 0) {
-            return res.status(400).json({ error: '⚠️ Không thể thêm nhà sản xuất' });
+            return res.status(400).json({ error: 'Không thể thêm nhà sản xuất' });
         }
 
         return res.status(201).json({
