@@ -14,7 +14,7 @@ router.get('/khachhang', (req, res) => {
         res.json(results);
     });
 });
-outer.post('/khachhang', (req, res) => {
+router.post('/khachhang', (req, res) => {
     const { HoTen, DiaChi, SoDienThoai, Email } = req.body;
     if (!HoTen || !DiaChi || !SoDienThoai || !Email) {
         return res.status(400).json({ error: 'Vui lòng nhập đầy đủ thông tin' });
